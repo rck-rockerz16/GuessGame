@@ -1,0 +1,52 @@
+html {
+    background-color: #FFEADD;
+}
+
+h1 {
+    color: #FF6666;
+    width: 100%;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+p {
+    color: #FF8989;
+    font-size: 1.5rem;
+
+}
+
+.container>p {
+    color: #FCAEAE;
+    font-size: 1.3rem;
+    width: 100%;
+    margin-top: 0;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+.left,
+.right {
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    height: 90vh;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
